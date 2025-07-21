@@ -1,0 +1,14 @@
+header{
+    /* font-size: 100px; comando que aumenta o texto */
+    
+    border: 1px solid black;
+    /* background-color: aqua; Comando para alterar a cor de fundo */
+}
+
+nav, main, article, aside, footer, section{
+    border: 1px solid black;
+}
+
+article{
+    display: inline;
+}
