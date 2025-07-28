@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: gold;
+    height: 100px;
+
+
+}
+
+#bloco1{
+    background-color: red;
+    /* grown shirink basics*/
+    flex: 1 0 100px;
+}
+
+#bloco2{
+    background-color: green;
+   
+}
+
+#bloco3{
+    background-color: blue;
+    
+}
+
+section{
+    background-color: bisque;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+
+    gap: 10px;
+    height: 70vh;
+}
