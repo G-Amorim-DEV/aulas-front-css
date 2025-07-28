@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*Desáfio Nível Água*/
+
+#nivel_agua{
+
+    background-color: beige;
+    padding: 10px;
+    display: none;
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    
+}
+
+.nivel_agua{
+
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+    margin: 10px;
+}
+
+/*Desáfio Nível Danoninho*/
+
+#nivel_danoninho{
+    background-color: beige;
+    padding: 10px;
+    display: none;
+
+}
+
+#cabecalho{
+    background-color: crimson;
+    height: 30px;
+
+}
+
+#conteudo_principal{
+    background-color: rgb(206, 169, 124);
+    padding: 0px;
+
+    display: flex;
+    
+    
+}
+
+.nivel_danoninho{
+    background-color: crimson;
+    width: 50%;
+    height: 100px;
+    margin: 10px 0px 0px 0px;
+}
+
+#div1{
+    margin-right: 10px ;
+}
+
+/*Desáfio Nível Suco*/
+
+#nivel_suco{
+    height: 100vh;
+    background-color: rgb(230, 230, 135);
+    padding: 10px;
+    display: none;
+}
+
+#cabecalho_suco{
+    background-color: blueviolet;
+    height: 15%;
+
+    
+}
+
+#principal{
+    background-color: aqua;
+    display: flex;
+    
+}
+
+#bloco_generico{
+    background-color: blue;
+    width: 75%;
+    margin: 10px 0px 10px 0px
+    
+}
+
+#conteudo_lateral{
+    background-color: blue;
+    height: 60vh;
+    width: 25%;
+    margin: 10px 0px 10px 10px;
+   
+}
+
+#rodape{
+    background-color: blueviolet;
+    height: 15%;
+}
+
+
+
+
