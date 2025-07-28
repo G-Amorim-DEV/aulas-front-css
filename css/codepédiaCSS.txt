@@ -1,0 +1,17 @@
+    /* font-size: 100px; comando que aumenta o texto 
+    
+    border: 1px solid black;
+
+    background-color: aqua; Comando para alterar a cor de fundo 
+
+    header, main, article, aside, footer, section{ a virgula serve como a preposição E
+
+    width: 100vw;  Propriedades de tamanhos
+
+    height: 100vh;  Propriedades de tamanhos
+
+    margin: 0px; Propriedades de espaçamento
+
+    Top Right Bottom Left - Para mexer nas direções do padding e margin
+
+    TOp/Bottom Left/Right - Para mexer nas direçoes do padding e margin*/

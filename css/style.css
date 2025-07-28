@@ -12,6 +12,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 .estruturas_semanticas{
@@ -22,7 +23,7 @@
    width: 90%;
    background-color: rgb(189, 189, 169);
 
-   padding: 10px;
+   padding: 10px 0px;
    margin: 10px;
 }
 
@@ -30,6 +31,28 @@
     width: 100vw;
     background-color: antiquewhite;
     padding: 10px 0px 10px 0px;
+}
+
+section{
+    background-color: rgb(163, 255, 255);
+    width: 100%;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.bloco_generico{
+
+    background-color: brown;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
 }
 
 article{
