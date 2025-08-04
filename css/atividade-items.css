@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nivel_agua{
+    background-color: bisque;
+    height: 100vh;
+    padding: 10px;
+
+    /* FlexBox - Propriedades de estruturação de layout pelo pai */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+}
+
+.bloco_generico{
+
+background-color: rgb(2, 90, 90);
+width: 200px;
+height: 300px;
+
+flex: 2 0 200px;
+
+}
+
+#caixa_direita{
+
+    /* FlexBox - propriedades de auteração do layout pelo filho */
+    /* grow shrink basics */
+    /* flex: 2 0 200px; */
+
+}
+
+/* Nível Suco */
+
+#cabecalho{
+    background-color: rgb(2, 90, 90);
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#logo{
+    background-color: rgb(2, 2, 64);
+    width: 100px;
+    height: 90px;
+}
+
+#menu_principal{
+   
+    padding: 5px;
+}
+
+#menu_principal, ul{
+    display: flex;
+    gap: 10px;
+
+
+}
+
+li{
+    background-color: rgb(2, 2, 64);
+    width: 100px;
+    height: 90px;
+
+}

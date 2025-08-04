@@ -13,7 +13,7 @@ div{
 
 #bloco1{
     background-color: red;
-    /* grown shirink basics*/
+    /* grow shrink basics */
     flex: 1 0 100px;
 }
 
